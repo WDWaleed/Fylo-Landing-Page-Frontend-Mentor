@@ -9,7 +9,7 @@ const Header = () => {
           className="aspect-[176/52] h-[40px] custom:h-[52px] "
         />
       </div>
-      <nav>
+      <nav aria-label="Main Navigation">
         <ul className="flex gap-4 custom:gap-12">
           <li>
             <a href="#" className="text-Cyan transition-colors duration-100 hover:text-white hover:underline" >Features</a>

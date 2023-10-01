@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
         </div>
         <div id="container-3" className="container-in-footer" >
-          <nav>
+          <nav aria-label="Footer Navigation 1">
             <ul className="flex flex-col gap-2">
               <li>About Us</li>
               <li>Jobs</li>
@@ -40,7 +40,7 @@ const Footer = () => {
           </nav>
         </div>
         <div id="container-4" className="container-in-footer" >
-          <nav>
+          <nav aria-label="Footer Navigation 2">
             <ul className="flex flex-col gap-2">
               <li>Contact Us</li>
               <li>Terms</li>
