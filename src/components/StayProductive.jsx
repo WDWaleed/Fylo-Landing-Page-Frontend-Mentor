@@ -18,7 +18,7 @@ const StayProductive = () => {
           for live collaboration. No email attachments required.
         </p>
         <a href="#" className="text-Cyan opacity-90 transition-opacity duration-200 hover:opacity-100 inline-block border-Cyan border-b-2 pb-2 ">
-          See how Fylo works <img src="/images/icon-arrow.svg" className="inline-block " />
+          See how Fylo works <img src="images/icon-arrow.svg" className="inline-block " />
         </a>
       </div>
     </section>

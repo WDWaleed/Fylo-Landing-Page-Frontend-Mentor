@@ -50,17 +50,17 @@ const Footer = () => {
         </div>
         <div id="container-5"  className="container-in-footer flex gap-4 h-[50px]">
           <img
-            src="/images/twitter.png"
+            src="images/twitter.png"
             alt="twitter"
             className="rounded-full bg-white"
           />
           <img
-            src="/images/facebook.png"
+            src="images/facebook.png"
             alt="facebook"
             className="rounded-full bg-white"
           />
           <img
-            src="/images/instagram.png"
+            src="images/instagram.png"
             alt="instagram"
             className="bg-white rounded-2xl"
           />
