@@ -1,0 +1,15 @@
+#features {
+    display: grid;
+    row-gap: 5rem;
+
+    
+    place-items: center;
+}
+
+@media screen and (width > 750px) {
+    #features {
+        grid-template-columns: repeat(2, 1fr);
+
+        column-gap: 5rem
+    }
+}

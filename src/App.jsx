@@ -1,9 +1,23 @@
+import { lazy, Suspense } from "react";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Features from "./components/Features";
+import StayProductive from "./components/StayProductive";
+import Testimonials from "./components/Testimonials";
+import SignUpForm from "./components/SignUpForm";
+import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="min-h-screen flex justify-center items-center bg-slate-700">
-      <h1 className="text-teal-300 text-4xl font-OpenSans ">
-        Fylo Dark Theme Landing Page
-      </h1>
+    <div className="text-white">
+      <Header />
+      <main className="bg-MainBack">
+        <Hero />
+        <Features />
+        <StayProductive />
+        <Testimonials />
+        <SignUpForm />
+      </main>
+      <Footer />
     </div>
   );
 }
